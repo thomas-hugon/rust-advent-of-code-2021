@@ -4,5 +4,8 @@ version = "0.1.0"
 edition = "2021"
 authors = ["Thomas Hugon"]
 
+[dependencies]
+
 [[bin]]
 name = "day1"
+path = "src/day1/bin.rs"

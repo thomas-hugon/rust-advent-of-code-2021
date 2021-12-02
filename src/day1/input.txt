@@ -1,4 +1,4 @@
-const INPUT: &str = "173
+173
 178
 179
 187
@@ -1997,29 +1997,4 @@ const INPUT: &str = "173
 9274
 9279
 9298
-9299";
-
-fn main() {
-    println!("part1={}", part1());
-    println!("part2={}", part2());
-}
-
-fn part1() -> u32 {
-    let (count, _) = INPUT.lines()
-        .map(|line| line.parse::<u32>().unwrap())
-        .fold((-1i32, 0u32), |(count, last_val), val| {
-            if val > last_val { (count + 1, val) } else { (count, val) }
-        });
-    count as u32
-}
-
-fn part2() -> u32 {
-    let vec: Vec<_> = INPUT.lines()
-        .map(|line| line.parse::<u32>().unwrap()).collect();
-    let (count, _) = vec.windows(3)
-        .map(|w| w[0] + w[1] + w[2])
-        .fold((-1i32, 0u32), |(count, last_val), val| {
-            if val > last_val { (count + 1, val) } else { (count, val) }
-        });
-    count as u32
-}
+9299
