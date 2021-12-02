@@ -1,0 +1,8 @@
+[package]
+name = "rust-advent-of-code-2021"
+version = "0.1.0"
+edition = "2021"
+authors = ["Thomas Hugon"]
+
+[[bin]]
+name = "day1"
