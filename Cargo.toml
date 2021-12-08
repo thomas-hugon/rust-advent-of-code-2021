@@ -5,6 +5,8 @@ edition = "2021"
 authors = ["Thomas Hugon"]
 
 [dependencies]
+lazy_static = "1.4.0"
+regex = "1.5.4"
 
 [[bin]]
 name = "day1"
@@ -21,3 +23,7 @@ path = "src/day3/bin.rs"
 [[bin]]
 name = "day4"
 path = "src/day4/bin.rs"
+
+[[bin]]
+name = "day5"
+path = "src/day5/bin.rs"
