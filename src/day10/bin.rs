@@ -1,4 +1,3 @@
-use std::collections::HashSet;
 use std::fs::File;
 use std::io::{BufRead, BufReader};
 use crate::Line::Valid;
