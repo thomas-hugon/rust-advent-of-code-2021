@@ -8,6 +8,7 @@ authors = ["Thomas Hugon"]
 lazy_static = "1.4.0"
 regex = "1.5.4"
 itertools = "0.10.3"
+pathfinding = "3.0.5"
 
 [[bin]]
 name = "day1"
@@ -64,3 +65,7 @@ path = "src/day13/bin.rs"
 [[bin]]
 name = "day14"
 path = "src/day14/bin.rs"
+
+[[bin]]
+name = "day15"
+path = "src/day15/bin.rs"
